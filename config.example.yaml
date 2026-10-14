@@ -1,0 +1,10 @@
+# Merge this mapping into the existing plugins.configs section.
+remote-compaction:
+  enabled: true
+  priority: 100
+  # Use an absolute path; do not put a literal $HOME in YAML.
+  key_file: /absolute/path/to/remote-compaction.key
+  max_output_tokens: 4096
+  models:
+    - glm-5.3-cyber
+    - claude-opus-5-5

@@ -1,0 +1,5 @@
+/dist/
+/verification/
+*.key
+*.dylib
+*.so
